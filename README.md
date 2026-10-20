@@ -16,7 +16,7 @@ Open `gateway.html` in any modern browser. For a local server, from the project 
 
 ## Deploy
 
-Upload this folder to Netlify, or publish the repository using GitHub Pages. Set the publishing folder to the project root and use `gateway.html` as the link you share.
+Deploy this folder to Netlify, or use GitHub Pages. For GitHub Pages, the `Deploy to GitHub Pages` workflow publishes the static site from the `main` branch. In the repository's **Settings → Pages**, set the build and deployment source to **GitHub Actions**. Share the generated Pages URL ending in `/gateway.html`.
 
 ## Final check
 
