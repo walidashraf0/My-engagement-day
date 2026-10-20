@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Our Forever — the story of W and H." />
+    <title>Our Forever — W &amp; H</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to our story</a>
+    <div class="page-progress" aria-hidden="true"><span></span></div>
+    <div class="grain" aria-hidden="true"></div>
+    <button class="music-toggle" type="button" aria-pressed="false" title="Ambient music starts automatically">
+      <span aria-hidden="true">♫</span><span>Sound off</span>
+    </button>
+    <nav class="story-nav" aria-label="Story navigation">
+        <a href="#beginning">Beginning</a><a href="#crossed">Crossroads</a
+      ><a href="#memories">Memories</a><a href="#forever">Forever</a>
+    </nav>
+
+    <main id="main">
+        <section class="hero section" id="home">
+            <div class="ambient ambient-one"></div>
+            <div class="ambient ambient-two"></div>
+            <div class="stars" aria-hidden="true"></div>
+            <div class="hero-photo photo-frame">
+                <img src="assets/images/hero-placeholder.svg" alt="A placeholder for a favorite photograph of W and H" fetchpriority="high" />
+            </div>
+            <div class="hero-copy reveal visible">
+                <p class="eyebrow">A love story in progress</p>
+                <p class="monogram" data-initials>W <i>&amp;</i> H</p>
+                <h1>
+                    Every Love Story Is Beautiful,<br /><em>But Ours Is My Favorite.</em
+            >
+          </h1>
+          <p class="lede">
+            From the moments we never noticed to the day we chose forever.
+          </p>
+          <a class="button button-gold" href="#beginning"
+            >Relive Our Story <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <a class="scroll-cue" href="#beginning"><span></span>Scroll to begin</a>
+      </section>
+
+      <section class="intro section-pad" id="beginning">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Chapter one</p>
+          <h2>Before We<br /><em>Ever Met</em></h2>
+            </div>
+            <p class="pull-quote reveal">
+                “Somewhere in the world, two little hearts were growing up, unaware that one day their paths would meet.”
+            </p>
+            <div class="origin-grid" id="childhoodCards"></div>
+        </section>
+
+        <section class="crossed section-pad dark-section" id="crossed">
+            <div class="section-heading light reveal">
+                <p class="eyebrow">Chapter two</p>
+                <h2>The Moment Our<br /><em>Paths Crossed</em></h2>
+            </div>
+            <div class="crossed-layout">
+                <div class="meeting-image photo-frame reveal">
+                    <img src="assets/images/meeting-placeholder.svg" alt="Placeholder for the memory of our first meeting" loading="lazy" />
+                </div>
+                <article class="meeting-story reveal">
+                    <p class="meeting-date" data-meeting-date>
+                        [OUR FIRST MEETING DATE]
+                    </p>
+                    <h3>It began with a moment.</h3>
+                    <p data-meeting-place>[WHERE WE FIRST MET]</p>
+                    <ol class="storyline" id="meetingStory"></ol>
+                </article>
+            </div>
+        </section>
+
+        <section class="memories section-pad" id="memories">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Chapter three</p>
+                <h2>When Friendship<br /><em>Became Love</em></h2>
+                <p class="section-intro">
+                    Little scenes that became the ones we always return to.
+                </p>
+            </div>
+            <div class="memory-rail-wrap reveal">
+                <button class="rail-arrow prev" type="button" aria-label="Previous memories">
+            ←
+          </button>
+                <div class="memory-rail" id="memoryRail" aria-label="Memory gallery"></div>
+                <button class="rail-arrow next" type="button" aria-label="Next memories">
+            →
+          </button>
+            </div>
+            <p class="hint reveal">Tap a memory to open its little story.</p>
+        </section>
+
+        <section class="letter-section section-pad" id="letter">
+            <div class="heart-orbit" aria-hidden="true"><span>♥</span></div>
+            <div class="letter-content reveal">
+                <p class="eyebrow">Chapter four</p>
+                <h2>The Day I<br /><em>Chose You</em></h2>
+                <p class="letter-intro">
+                    I spent so much time trying to find the right words, but how do you explain that someone has quietly become your favorite part of life?
+                </p>
+                <button class="button button-ivory" id="letterButton" type="button" aria-expanded="false">
+            Read What My Heart Wanted to Say
+          </button>
+                <div class="love-letter" id="loveLetter" aria-live="polite">
+                    <p class="script">
+                        My dearest <span data-her-name>[HER NAME]</span>,
+                    </p>
+                    <div id="typedLetter"></div>
+                    <p class="script signed">
+                        Always,<br /><span data-my-name>[YOUR NAME]</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="universe section-pad" id="universe">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Our little universe</p>
+                <h2>All the Things<br /><em>That Feel Like Us</em></h2>
+            </div>
+            <div class="universe-grid" id="universeCards"></div>
+        </section>
+
+        <section class="tomorrow section-pad" id="tomorrow">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Chapter five</p>
+                <h2>Our Story Is Only<br /><em>Just Beginning.</em></h2>
+                <p class="section-intro">
+                    Not a map with every answer—just a beautiful direction, together.
+                </p>
+            </div>
+            <div class="future-line" id="futureLine"></div>
+        </section>
+
+        <section class="finale section" id="forever">
+            <div class="petals" aria-hidden="true"></div>
+            <div class="finale-glow" aria-hidden="true"></div>
+            <div class="finale-photo photo-frame">
+                <img src="assets/images/engagement-placeholder.svg" alt="Placeholder for an engagement day photograph" loading="lazy" />
+            </div>
+            <div class="finale-copy reveal">
+                <p class="eyebrow">Our special day</p>
+                <p class="engagement-date" data-engagement-date>[ENGAGEMENT DATE]</p>
+                <h2>Today, Our<br /><em>Forever Begins.</em></h2>
+                <p class="lede">
+                    One question, two hearts, and a lifetime of choosing each other.
+                </p>
+                <div class="counter" id="engagementCounter" aria-live="polite"></div>
+                <button class="button button-gold" id="promiseButton" type="button" aria-expanded="false">
+            Our Promise
+          </button>
+                <p class="promise" id="promiseText" hidden data-final-message>
+                    [YOUR FINAL ENGAGEMENT MESSAGE]
+                </p>
+                <p class="final-signature">
+                    W &amp; H — One Love, A Thousand Memories, Forever.
+                </p>
+            </div>
+        </section>
+    </main>
+    <button class="back-top" type="button" aria-label="Back to top">↑</button>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Memory viewer">
+        <button class="lightbox-close" aria-label="Close memory">×</button
+      ><button class="lightbox-nav lightbox-prev" aria-label="Previous memory">
+        ←
+      </button>
+        <figure>
+            <img id="lightboxImage" src="" alt="" />
+            <figcaption>
+                <p class="eyebrow" id="lightboxDate"></p>
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxCaption"></p>
+            </figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" aria-label="Next memory">
+        →
+      </button>
+    </dialog>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
