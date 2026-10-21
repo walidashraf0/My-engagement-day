@@ -7,8 +7,8 @@ const STORY = {
     myName: "Walid",
     herName: "Hager",
     initials: "W & H",
-    firstMeetingDate: "2023-06-01",
-    firstMeetingPlace: "In My Dreams",
+    firstMeetingDate: "2026-10-21",
+    firstMeetingPlace: "Her Uncle Home",
     // Use ISO format (YYYY-MM-DD) to enable the countdown. Keep placeholder while undecided.
     engagementDate: "2026-11-06",
     // Optional: add an MP3 in assets/music/ then set its relative path here.
@@ -28,9 +28,9 @@ const STORY = {
         },
     ],
     meetingMoments: [
-        "[HOW WE MET — AN EDITABLE DESCRIPTION]",
-        "[OUR FIRST CONVERSATION OR FIRST IMPRESSION]",
-        "[THE LITTLE DETAIL WE BOTH REMEMBER]",
+        "As a Date",
+        "Talked about ourselves and our needs",
+        "First Meeting, First glances, and a little bit of nervousness",
     ],
     memories: [{
             title: "A meaningful conversation",
