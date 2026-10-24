@@ -18,13 +18,13 @@ const STORY = {
             person: "My childhood",
             title: "The beginning of my story",
             text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
-            image: "assets/images/childhood-w-placeholder.svg",
+            image: "assets/images/me.jpg",
         },
         {
             person: "Her childhood",
             title: "The beginning of her story",
             text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
-            image: "assets/images/childhood-h-placeholder.svg",
+            image: "assets/images/her.jpg",
         },
     ],
     meetingMoments: [
