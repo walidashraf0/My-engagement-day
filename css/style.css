@@ -564,7 +564,8 @@ h2 em {
     overflow: hidden;
 }
 
-.memory-card img {
+.memory-card img,
+.memory-card video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -579,7 +580,9 @@ h2 em {
 }
 
 .memory-card:hover img,
-.memory-card:focus-visible img {
+.memory-card:hover video,
+.memory-card:focus-visible img,
+.memory-card:focus-visible video {
     transform: scale(1.07);
 }
 
@@ -980,7 +983,8 @@ h2 em {
     min-height: 520px;
 }
 
-.lightbox img {
+.lightbox img,
+.lightbox video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1135,7 +1139,8 @@ h2 em {
         grid-template-columns: 1fr;
         min-height: 0;
     }
-    .lightbox img {
+    .lightbox img,
+    .lightbox video {
         height: 48vh;
     }
     .lightbox figcaption {

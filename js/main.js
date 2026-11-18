@@ -33,37 +33,83 @@ const STORY = {
         "First Meeting, First glances, and a little bit of nervousness",
     ],
     memories: [{
-            title: "A meaningful conversation",
-            date: "[DATE]",
-            caption: "[WHAT MADE THIS MOMENT STAY WITH YOU]",
-            image: "assets/images/memory-1-placeholder.svg",
+            title: "The Meeting of Our Hearts",
+            date: "6-11-2026",
+            caption: "This is the moment my heart beat faster than I had expected.",
+            image: "assets/images/memo1.jpg",
         },
         {
-            title: "The moments that made us laugh",
-            date: "[DATE]",
-            caption: "[YOUR FUNNIEST OR SWEETEST SHARED MEMORY]",
-            image: "assets/images/memory-2-placeholder.svg",
+            title: "Our eyes met",
+            date: "6-11-2026",
+            caption: "The moment our eyes met",
+            image: "assets/images/memo3.jpg",
         },
         {
-            title: "A place that feels like us",
-            date: "[DATE]",
-            caption: "[A FAVORITE PLACE AND WHY IT MATTERS]",
-            image: "assets/images/memory-3-placeholder.svg",
+            title: "Imagination has become reality.",
+            date: "6-11-2026",
+            caption: "Now and until the end, you have become mine—mine alone.",
+            image: "assets/images/memo2.png",
         },
         {
-            title: "The first photo together",
-            date: "[DATE]",
-            caption: "[THE STORY BEHIND YOUR FIRST PHOTO]",
-            image: "assets/images/memory-4-placeholder.svg",
+            title: "Our hearts, together forever.",
+            date: "6-11-2026",
+            caption: "Our journey together begins now.",
+            image: "assets/images/memo4.jpg",
         },
         {
-            title: "The moment I knew",
-            date: "[DATE]",
-            caption: "[THE MOMENT YOU REALIZED SHE WAS SPECIAL]",
-            image: "assets/images/memory-5-placeholder.svg",
+            title: "My heart almost embraced yours.",
+            date: "12-11-2026",
+            caption: "This special moment is ours alone.",
+            image: "assets/images/memo5.jpg",
+        },
+        {
+            title: "The Vow of Loved Ones",
+            date: "12-11-2026",
+            caption: "Seeing you was a dream, and now I am living my life anew.",
+            image: "assets/images/memo6.jpg",
+        },
+        {
+            title: "Our Beautiful Memory",
+            date: "6-11-2026",
+            caption: "A moment I want to keep forever.",
+            video: "assets/videos/our-memory.mp4",
         },
     ],
-    loveLetter: "[YOUR LOVE LETTER]\n\n[Write this in your own words. This text appears gradually when the letter is opened.]",
+    loveLetter: `إلى حبيبتي، وإلى أجمل أقداري...
+
+حبيبتي، ورفيقة قلبي، وأجمل ما تمنيت أن يكون لي يومًا...
+
+أتعلمين؟ أحيانًا أجلس وحدي وأسرح بخيالي بعيدًا، أتخيل يومًا لم يأتِ بعد، ولكنه يسكن قلبي وكأنه أقرب إليّ من أي شيء آخر. أتخيل ذلك اليوم الذي لن نضطر فيه إلى توديع بعضنا، ولن تكون لقاءاتنا محدودة بوقت، ولن ننتظر فرصة لنتحدث أو لحظة لنطمئن فيها على بعضنا. اليوم الذي سأفتح فيه عيني كل صباح فأجدك بجانبي، وأدرك أن كل تلك السنوات التي تمنيتك فيها، وكل لحظات الشوق والانتظار، قد انتهت أخيرًا، وأنك أصبحتِ لي بيتًا وحياةً وعمرًا كاملًا.
+
+أريدك أن تعرفي أن حبي لكِ ليس شعورًا وُلد بالأمس، ولا إعجابًا عابرًا مرّ بقلبي ثم استقر، بل هو حكاية بدأت منذ كنت أحبك صغيرة، منذ تلك الأيام التي لم أكن أعرف فيها كيف سيكون شكل المستقبل، ولا كيف ستأخذنا الحياة في طرقها، لكنني كنت أحمل لكِ في قلبي حبًا يكبر دون أن أشعر. وها أنا اليوم، بعد كل تلك السنوات، ما زلت أحبك، بل أحبك أكثر مما كنت أتخيل، وكأن قلبي كلما ظن أنه بلغ أقصى درجات عشقه لكِ، اكتشف أن بداخله حبًا أكبر لم يعرفه بعد.
+
+لقد كبرتِ معي في قلبي، وكبر حبك في داخلي، وتغيرت أشياء كثيرة في حياتي، إلا مكانتك عندي؛ بل أصبحتِ مع الأيام أغلى وأقرب وأعمق حضورًا. وما زلت أراكِ تلك الأمنية الجميلة التي دعوت الله أن تتحقق، وما زلت كلما نظرت إليكِ أشعر أنني أمام نعمة عظيمة لا أريد من الدنيا بعدها شيئًا.
+
+وأتعلمين ما أكثر ما أتمناه؟
+
+أن يأتي اليوم الذي نصبح فيه تحت سقف واحد، زوجين جمعهما الله بعد طول انتظار، نبدأ معًا حياة لا تشبه إلا أحلامنا. أتخيل بيتنا الصغير، ضحكاتنا التي تملأ أركانه، أحاديثنا في نهاية كل يوم، تفاصيل صباحاتنا، قهوتنا معًا، مزاحنا، وحتى اختلافاتنا الصغيرة التي سننهيها بابتسامة واحتضان.
+
+أتخيلك وأنتِ تتحركين في بيتنا بكل حب، وأنا أراقبك وأبتسم لأنني أخيرًا أعيش الحياة التي طالما تخيلتها معك. أتخيل أن أعود من يوم طويل فأجدك تنتظرينني، فأشعر أن كل تعب الدنيا يهون بمجرد أن أكون بجانبك.
+
+وأتخيل أطفالنا يملؤون البيت حركة وضجيجًا وضحكات، يركضون بيننا، ويتعلقون بنا، وننظر إليهم معًا فنرى أجمل ثمار حبنا. أتخيل أن أحملك مسؤولية سعادتهم معي، وأن نربيهم على الحب والرحمة والحنان، وأن نصنع لهم ذكريات جميلة كما تمنينا دائمًا أن نصنع لأنفسنا.
+
+أريد أن أكبر معكِ، لا أن أحبك في أجمل أيام العمر فقط، بل أن أحبك في كل مراحلنا؛ حين نكون في قمة سعادتنا، وحين تتعبنا الحياة، وحين تتغير ملامحنا، وحين تمر السنوات. أريد أن أكون الرجل الذي تجدين عنده الأمان حين تخافين، والحنان حين تحزنين، والرفيق حين تتعبين، والسند الذي لا يميل مهما أثقلتنا الأيام.
+
+لا أعدك بحياة خالية من الصعوبات، لكنني أعدك أنني أريد أن أواجهها معكِ، وأن أختارك كل يوم من جديد، وأن أظل أحاول لأجلك، ولأجل بيتنا، ولأجل تلك الحياة التي نحلم بها معًا.
+
+حبيبتي، لو كان بإمكاني أن أريكِ ما بداخلي للحظة واحدة، لرأيتِ كم أحبك، وكم أشتاق إلى أيام لم نعشها بعد، وكم أحنّ إلى بيت لم نسكنه بعد، وإلى صباحات لم تأتِ بعد، وإلى أطفال لم نحتضنهم بعد، وإلى عمر كامل أنتِ بطلته الأولى والأخيرة.
+
+أحبك منذ كنتِ حلمًا صغيرًا في قلبي، وأحبك اليوم وأنتِ أقرب أحلامي إلى التحقق، وسأحبك غدًا حين تصبحين زوجتي، وبعد غد حين نصبح أبوين، وحتى آخر العمر حين نجلس معًا وقد شابت رؤوسنا، ونحكي كيف بدأت حكايتنا، وكيف أن قلبي ظل يختارك منذ البداية وحتى النهاية.
+
+كل ما أريده من هذه الحياة أن يطيل الله في أعمارنا ونحن معًا، وأن يبارك لنا في حبنا، وأن يجعلني لكِ كما تتمنين، ويجعلكِ لي أجمل مما تمنيت.
+
+فأنا لا أنتظر يوم زفافنا فقط، بل أنتظر العمر الذي سيبدأ بعده... أنتظر أن أعيش معكِ كل الأيام التي طالما عشتها في خيالي وحدي.
+
+أحبك يا حبيبتي، حبًا لا تقيسه السنوات، ولا تصفه الكلمات، ولا تنهيه الأيام... فأنتِ لم تكوني يومًا مجرد فتاة أحببتها، بل كنتِ وما زلتِ أجمل حكاية كتبها قلبي، وأجمل مستقبل أتمنى أن أعيشه. ❤️
+
+والآن أتعديني أن نصبح معا للأبد مهما كانت الصعوبات؟
+
+زوجك الذي ينتظر أن يناديكِ يومًا: يا رفيقة عمري، ويا أجمل ما في بيتي وحياتي.`,
     universe: [{
             icon: "✦",
             title: "Your Smile",
@@ -109,7 +155,7 @@ const STORY = {
             text: "[LOVE, RESPECT, TRUST, AND PARTNERSHIP]",
         },
     ],
-    finalMessage: "[YOUR FINAL ENGAGEMENT MESSAGE]",
+    finalMessage: "My friend, my child, my beloved forever.",
 };
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
@@ -133,6 +179,13 @@ function imageMarkup(src, alt) {
     return `<img src="${src}" alt="${escapeHtml(alt)}" loading="lazy">`;
 }
 
+function memoryMediaMarkup(item) {
+    if (item.video) {
+        return `<video src="${escapeHtml(item.video)}" muted playsinline preload="metadata" aria-label="${escapeHtml(item.title)}"></video>`;
+    }
+    return imageMarkup(item.image, `Placeholder for ${item.title}`);
+}
+
 function populateContent() {
     setText("[data-my-name]", STORY.myName);
     setText("[data-her-name]", STORY.herName);
@@ -153,7 +206,7 @@ function populateContent() {
   $("#memoryRail").innerHTML = STORY.memories
     .map(
       (item, i) =>
-        `<button class="memory-card" type="button" data-memory="${i}" aria-label="Open memory: ${escapeHtml(item.title)}">${imageMarkup(item.image, `Placeholder for ${item.title}`)}<span class="memory-label"><small>${escapeHtml(item.date)}</small><h3>${escapeHtml(item.title)}</h3></span></button>`,
+        `<button class="memory-card" type="button" data-memory="${i}" aria-label="Open memory: ${escapeHtml(item.title)}">${memoryMediaMarkup(item)}<span class="memory-label"><small>${escapeHtml(item.date)}</small><h3>${escapeHtml(item.title)}</h3></span></button>`,
     )
     .join("");
   $("#universeCards").innerHTML = STORY.universe
@@ -191,8 +244,24 @@ function setupGallery() {
   const show = (index) => {
     current = (index + STORY.memories.length) % STORY.memories.length;
     const m = STORY.memories[current];
-    $("#lightboxImage").src = m.image;
-    $("#lightboxImage").alt = `Placeholder for ${m.title}`;
+    const image = $("#lightboxImage");
+    const video = $("#lightboxVideo");
+
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+
+    if (m.video) {
+      image.hidden = true;
+      video.hidden = false;
+      video.src = m.video;
+      video.load();
+    } else {
+      video.hidden = true;
+      image.hidden = false;
+      image.src = m.image;
+      image.alt = `Placeholder for ${m.title}`;
+    }
     $("#lightboxDate").textContent = m.date;
     $("#lightboxTitle").textContent = m.title;
     $("#lightboxCaption").textContent = m.caption;
@@ -205,6 +274,7 @@ function setupGallery() {
   $(".lightbox-close").addEventListener("click", () => dialog.close());
   $(".lightbox-prev").addEventListener("click", () => show(current - 1));
   $(".lightbox-next").addEventListener("click", () => show(current + 1));
+  dialog.addEventListener("close", () => $("#lightboxVideo").pause());
   dialog.addEventListener("click", (e) => {
     if (e.target === dialog) dialog.close();
   });
