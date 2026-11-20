@@ -35,7 +35,7 @@ const STORY = {
   ],
   memories: [{
       title: "When it all began",
-      date: "21-7-2026",
+      date: "21-6-2026",
       caption: "When my heart finally decided to beat",
       image: "assets/images/screen.jpg",
     },
