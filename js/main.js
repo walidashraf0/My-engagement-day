@@ -4,78 +4,85 @@
   are relative to index.html. Keep placeholders until your photos are ready.
 */
 const STORY = {
-    myName: "Walid",
-    herName: "Hager",
-    initials: "W & H",
-    firstMeetingDate: "2026-10-21",
-    firstMeetingPlace: "Her Uncle Home",
-    // Use ISO format (YYYY-MM-DD) to enable the countdown. Keep placeholder while undecided.
-    engagementDate: "2026-11-06",
-    // Optional: add an MP3 in assets/music/ then set its relative path here.
-    // Example: musicPath: 'assets/music/our-song.mp3'
-    musicPath: "assets/music/our-song.m4a",
-    childhood: [{
-            person: "My childhood",
-            title: "The beginning of my story",
-            text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
-            image: "assets/images/me.jpg",
-        },
-        {
-            person: "Her childhood",
-            title: "The beginning of her story",
-            text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
-            image: "assets/images/her.jpg",
-        },
-    ],
-    meetingMoments: [
-        "As a Date",
-        "Talked about ourselves and our needs",
-        "First Meeting, First glances, and a little bit of nervousness",
-    ],
-    memories: [{
-            title: "The Meeting of Our Hearts",
-            date: "6-11-2026",
-            caption: "This is the moment my heart beat faster than I had expected.",
-            image: "assets/images/memo1.jpg",
-        },
-        {
-            title: "Our eyes met",
-            date: "6-11-2026",
-            caption: "The moment our eyes met",
-            image: "assets/images/memo3.jpg",
-        },
-        {
-            title: "Imagination has become reality.",
-            date: "6-11-2026",
-            caption: "Now and until the end, you have become mine—mine alone.",
-            image: "assets/images/memo2.png",
-        },
-        {
-            title: "Our hearts, together forever.",
-            date: "6-11-2026",
-            caption: "Our journey together begins now.",
-            image: "assets/images/memo4.jpg",
-        },
-        {
-            title: "My heart almost embraced yours.",
-            date: "12-11-2026",
-            caption: "This special moment is ours alone.",
-            image: "assets/images/memo5.jpg",
-        },
-        {
-            title: "The Vow of Loved Ones",
-            date: "12-11-2026",
-            caption: "Seeing you was a dream, and now I am living my life anew.",
-            image: "assets/images/memo6.jpg",
-        },
-        {
-            title: "Our Beautiful Memory",
-            date: "6-11-2026",
-            caption: "A moment I want to keep forever.",
-            video: "assets/videos/our-memory.mp4",
-        },
-    ],
-    loveLetter: `إلى حبيبتي، وإلى أجمل أقداري...
+  myName: "Walid",
+  herName: "Hager",
+  initials: "W & H",
+  firstMeetingDate: "2026-10-21",
+  firstMeetingPlace: "Her Uncle Home",
+  // Use ISO format (YYYY-MM-DD) to enable the countdown. Keep placeholder while undecided.
+  engagementDate: "2026-11-06",
+  // Optional: add an MP3 in assets/music/ then set its relative path here.
+  // Example: musicPath: 'assets/music/our-song.mp3'
+  musicPath: "assets/music/our-song.m4a",
+  childhood: [
+    {
+      person: "My childhood",
+      title: "The beginning of my story",
+      text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
+      image: "assets/images/me.jpg",
+    },
+    {
+      person: "Her childhood",
+      title: "The beginning of her story",
+      text: "[A SHORT, EDITABLE CHILDHOOD MEMORY]",
+      image: "assets/images/her.jpg",
+    },
+  ],
+  meetingMoments: [
+    "As a Date",
+    "Talked about ourselves and our needs",
+    "First Meeting, First glances, and a little bit of nervousness",
+  ],
+  memories: [{
+      title: "When it all began",
+      date: "21-7-2026",
+      caption: "When my heart finally decided to beat",
+      image: "assets/images/screen.jpg",
+    },
+    {
+      title: "The Meeting of Our Hearts",
+      date: "6-11-2026",
+      caption: "This is the moment my heart beat faster than I had expected.",
+      image: "assets/images/memo1.jpg",
+    },
+    {
+      title: "Our eyes met",
+      date: "6-11-2026",
+      caption: "The moment our eyes met",
+      image: "assets/images/memo3.jpg",
+    },
+    {
+      title: "Imagination has become reality.",
+      date: "6-11-2026",
+      caption: "Now and until the end, you have become mine—mine alone.",
+      image: "assets/images/memo2.png",
+    },
+    {
+      title: "Our hearts, together forever.",
+      date: "6-11-2026",
+      caption: "Our journey together begins now.",
+      image: "assets/images/memo4.jpg",
+    },
+    {
+      title: "My heart almost embraced yours.",
+      date: "12-11-2026",
+      caption: "This special moment is ours alone.",
+      image: "assets/images/memo5.jpg",
+    },
+    {
+      title: "The Vow of Loved Ones",
+      date: "12-11-2026",
+      caption: "Seeing you was a dream, and now I am living my life anew.",
+      image: "assets/images/memo6.jpg",
+    },
+    {
+      title: "Our Beautiful Memory",
+      date: "6-11-2026",
+      caption: "A moment I want to keep forever.",
+      video: "assets/videos/our-memory.mp4",
+    },
+  ],
+  loveLetter: `إلى حبيبتي، وإلى أجمل أقداري...
 
 حبيبتي، ورفيقة قلبي، وأجمل ما تمنيت أن يكون لي يومًا...
 
@@ -110,94 +117,96 @@ const STORY = {
 والآن أتعديني أن نصبح معا للأبد مهما كانت الصعوبات؟
 
 زوجك الذي ينتظر أن يناديكِ يومًا: يا رفيقة عمري، ويا أجمل ما في بيتي وحياتي.`,
-    universe: [{
-            icon: "✦",
-            title: "Your Smile",
-            text: "[A LITTLE THING ABOUT HER THAT MAKES YOU SMILE]",
-        },
-        {
-            icon: "♫",
-            title: "Our Little Moments",
-            text: "[A FAVORITE SONG, ROUTINE, OR SHARED DETAIL]",
-        },
-        {
-            icon: "⌁",
-            title: "The Way You Understand Me",
-            text: "[AN EDITABLE NOTE ABOUT YOUR CONNECTION]",
-        },
-        {
-            icon: "✧",
-            title: "Dreams We Share",
-            text: "[A HOPE YOU WANT TO BUILD TOGETHER]",
-        },
-        {
-            icon: "⌂",
-            title: "My Favorite Place",
-            text: "[MY FAVORITE PLACE IS BESIDE YOU]",
-        },
-        {
-            icon: "∞",
-            title: "Our Private Language",
-            text: "[AN INSIDE JOKE OR A WORD ONLY YOU TWO UNDERSTAND]",
-        },
-    ],
-    future: [{
-            title: "More memories",
-            text: "[LITTLE DAYS, BIG FEELINGS, AND EVERYTHING BETWEEN]",
-        },
-        {
-            title: "Places to see",
-            text: "[A PLACE OR TWO YOU HOPE TO EXPLORE TOGETHER]",
-        },
-        { title: "Dreams to build", text: "[A GOAL THAT MATTERS TO BOTH OF YOU]" },
-        {
-            title: "A life together",
-            text: "[LOVE, RESPECT, TRUST, AND PARTNERSHIP]",
-        },
-    ],
-    finalMessage: "My friend, my child, my beloved forever.",
+  universe: [
+    {
+      icon: "✦",
+      title: "Your Smile",
+      text: "[A LITTLE THING ABOUT HER THAT MAKES YOU SMILE]",
+    },
+    {
+      icon: "♫",
+      title: "Our Little Moments",
+      text: "[A FAVORITE SONG, ROUTINE, OR SHARED DETAIL]",
+    },
+    {
+      icon: "⌁",
+      title: "The Way You Understand Me",
+      text: "[AN EDITABLE NOTE ABOUT YOUR CONNECTION]",
+    },
+    {
+      icon: "✧",
+      title: "Dreams We Share",
+      text: "[A HOPE YOU WANT TO BUILD TOGETHER]",
+    },
+    {
+      icon: "⌂",
+      title: "My Favorite Place",
+      text: "[MY FAVORITE PLACE IS BESIDE YOU]",
+    },
+    {
+      icon: "∞",
+      title: "Our Private Language",
+      text: "[AN INSIDE JOKE OR A WORD ONLY YOU TWO UNDERSTAND]",
+    },
+  ],
+  future: [
+    {
+      title: "More memories",
+      text: "[LITTLE DAYS, BIG FEELINGS, AND EVERYTHING BETWEEN]",
+    },
+    {
+      title: "Places to see",
+      text: "[A PLACE OR TWO YOU HOPE TO EXPLORE TOGETHER]",
+    },
+    { title: "Dreams to build", text: "[A GOAL THAT MATTERS TO BOTH OF YOU]" },
+    {
+      title: "A life together",
+      text: "[LOVE, RESPECT, TRUST, AND PARTNERSHIP]",
+    },
+  ],
+  finalMessage: "My friend, my child, my beloved forever.",
 };
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [
-    ...parent.querySelectorAll(selector),
+  ...parent.querySelectorAll(selector),
 ];
 
 function escapeHtml(value) {
-    const el = document.createElement("div");
-    el.textContent = value;
-    return el.innerHTML;
+  const el = document.createElement("div");
+  el.textContent = value;
+  return el.innerHTML;
 }
 
 function setText(selector, value) {
-    $$(selector).forEach((el) => {
-        el.textContent = value;
-    });
+  $$(selector).forEach((el) => {
+    el.textContent = value;
+  });
 }
 
 function imageMarkup(src, alt) {
-    return `<img src="${src}" alt="${escapeHtml(alt)}" loading="lazy">`;
+  return `<img src="${src}" alt="${escapeHtml(alt)}" loading="lazy">`;
 }
 
 function memoryMediaMarkup(item) {
-    if (item.video) {
-        return `<video src="${escapeHtml(item.video)}" muted playsinline preload="metadata" aria-label="${escapeHtml(item.title)}"></video>`;
-    }
-    return imageMarkup(item.image, `Placeholder for ${item.title}`);
+  if (item.video) {
+    return `<video src="${escapeHtml(item.video)}" muted playsinline preload="metadata" aria-label="${escapeHtml(item.title)}"></video>`;
+  }
+  return imageMarkup(item.image, `Placeholder for ${item.title}`);
 }
 
 function populateContent() {
-    setText("[data-my-name]", STORY.myName);
-    setText("[data-her-name]", STORY.herName);
-    setText("[data-initials]", STORY.initials);
-    setText("[data-meeting-date]", STORY.firstMeetingDate);
-    setText("[data-meeting-place]", STORY.firstMeetingPlace);
-    setText("[data-engagement-date]", STORY.engagementDate);
-    setText("[data-final-message]", STORY.finalMessage);
-    $("#childhoodCards").innerHTML = STORY.childhood
-        .map(
-            (item) =>
-            `<article class="origin-card reveal">${imageMarkup(item.image, `Placeholder for ${item.person}`)}<small>${escapeHtml(item.person)}</small><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p></article>`,
+  setText("[data-my-name]", STORY.myName);
+  setText("[data-her-name]", STORY.herName);
+  setText("[data-initials]", STORY.initials);
+  setText("[data-meeting-date]", STORY.firstMeetingDate);
+  setText("[data-meeting-place]", STORY.firstMeetingPlace);
+  setText("[data-engagement-date]", STORY.engagementDate);
+  setText("[data-final-message]", STORY.finalMessage);
+  $("#childhoodCards").innerHTML = STORY.childhood
+    .map(
+      (item) =>
+        `<article class="origin-card reveal">${imageMarkup(item.image, `Placeholder for ${item.person}`)}<small>${escapeHtml(item.person)}</small><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p></article>`,
     )
     .join("");
   $("#meetingStory").innerHTML = STORY.meetingMoments
@@ -459,8 +468,7 @@ function setupControls() {
     startMusic();
   } else {
     musicButton.addEventListener("click", () => {
-      musicButton.title =
-        "Add an MP3 path in js/main.js to enable music.";
+      musicButton.title = "Add an MP3 path in js/main.js to enable music.";
     });
   }
 }
